@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-23T13:40:29 IST" name="Suite" finished-at="2022-08-23T13:41:30 IST" duration-ms="61015">
+    <groups>
+    </groups>
+    <test started-at="2022-08-23T13:40:29 IST" name="Test" finished-at="2022-08-23T13:41:30 IST" duration-ms="61015">
+      <class name="com.shophunt.testNG.InsertProductTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.shophunt.testNG.InsertProductTest@f09733f]" started-at="2022-08-23T13:40:29 IST" name="connectToDB" finished-at="2022-08-23T13:40:29 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.shophunt.testNG.InsertProductTest@f09733f]" started-at="2022-08-23T13:40:29 IST" name="browserLaunch" finished-at="2022-08-23T13:40:33 IST" duration-ms="4051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="insertTheProductAsAnAdmin()[pri:0, instance:com.shophunt.testNG.InsertProductTest@f09733f]" started-at="2022-08-23T13:40:33 IST" name="insertTheProductAsAnAdmin" finished-at="2022-08-23T13:40:42 IST" duration-ms="9185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTheProductAsAnAdmin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.shophunt.testNG.InsertProductTest@f09733f]" started-at="2022-08-23T13:40:42 IST" name="closeBrowser" finished-at="2022-08-23T13:40:42 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeTheDBConnection()[pri:0, instance:com.shophunt.testNG.InsertProductTest@f09733f]" started-at="2022-08-23T13:41:30 IST" name="closeTheDBConnection" finished-at="2022-08-23T13:41:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheDBConnection -->
+      </class> <!-- com.shophunt.testNG.InsertProductTest -->
+      <class name="com.shophunt.testNG.CreateCategoryTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.shophunt.testNG.CreateCategoryTest@60099951]" started-at="2022-08-23T13:41:18 IST" name="browserLaunch" finished-at="2022-08-23T13:41:19 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="CreateCategoryAndVerifyInUserAdminModuleTest()[pri:0, instance:com.shophunt.testNG.CreateCategoryTest@60099951]" started-at="2022-08-23T13:41:19 IST" name="CreateCategoryAndVerifyInUserAdminModuleTest" finished-at="2022-08-23T13:41:29 IST" duration-ms="9945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCategoryAndVerifyInUserAdminModuleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.shophunt.testNG.CreateCategoryTest@60099951]" started-at="2022-08-23T13:41:29 IST" name="closeBrowser" finished-at="2022-08-23T13:41:30 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.shophunt.testNG.CreateCategoryTest -->
+      <class name="com.shophunt.testNG.BuyProductTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.shophunt.testNG.BuyProductTest@1c7696c6]" started-at="2022-08-23T13:40:58 IST" name="browserLaunch" finished-at="2022-08-23T13:41:00 IST" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="buyTheProductAndVerifyInAdminModule()[pri:0, instance:com.shophunt.testNG.BuyProductTest@1c7696c6]" started-at="2022-08-23T13:41:00 IST" name="buyTheProductAndVerifyInAdminModule" finished-at="2022-08-23T13:41:17 IST" duration-ms="16907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyTheProductAndVerifyInAdminModule -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.shophunt.testNG.BuyProductTest@1c7696c6]" started-at="2022-08-23T13:41:17 IST" name="closeBrowser" finished-at="2022-08-23T13:41:18 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.shophunt.testNG.BuyProductTest -->
+      <class name="com.shophunt.testNG.MyAccountTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.shophunt.testNG.MyAccountTest@6c1a5b54]" started-at="2022-08-23T13:40:43 IST" name="browserLaunch" finished-at="2022-08-23T13:40:44 IST" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="createUserAccountAndVerifyAdminModule()[pri:0, instance:com.shophunt.testNG.MyAccountTest@6c1a5b54]" started-at="2022-08-23T13:40:44 IST" name="createUserAccountAndVerifyAdminModule" finished-at="2022-08-23T13:40:57 IST" duration-ms="12949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAccountAndVerifyAdminModule -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.shophunt.testNG.MyAccountTest@6c1a5b54]" started-at="2022-08-23T13:40:57 IST" name="closeBrowser" finished-at="2022-08-23T13:40:58 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.shophunt.testNG.MyAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
